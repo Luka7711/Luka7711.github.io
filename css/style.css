@@ -1,0 +1,56 @@
+html{
+	min-width:350px;
+}
+
+body{
+	padding: 0;
+	margin:-1rem auto;
+	font-family: 'helvetica'
+}
+
+nav{
+	height:5rem;
+	background: black;
+	text-align: right;
+}
+
+nav ul{
+	padding-top:1rem;
+	margin-right:7rem;
+}
+
+nav li{
+	display: inline;
+}
+nav li a{
+	font-size:2rem;
+	margin-left:2rem;
+	text-decoration: none;
+	color:#e8eaed;
+}
+
+nav li a:hover{
+	color:#2cb4dd;
+}
+
+
+.container{
+	margin:2rem 10rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
