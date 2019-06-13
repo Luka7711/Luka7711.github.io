@@ -38,7 +38,7 @@ a{
 
 .container{
 	margin:5rem 10rem;
-
+	text-align: center;
 }
 
 .profile{
@@ -98,7 +98,64 @@ ul li{
 	float: left;
 }
 
+.section{
+	color:rgb(203, 65, 84);
+	font-size: 1.5rem;
+	margin-top:5rem;
+}
 
+.experience{
+	color:orange;
+}
+
+.skills{
+	color:green;
+}
+.goals{
+	color:red;
+}
+
+
+
+#resume{
+	color:#083a8c;
+	font-size: 1.5rem;
+	font-weight:800;
+	margin-top:5rem;
+}
+
+.portfolio{
+	margin-top:5rem;
+}
+
+.project_container{
+	width:30%;
+	height:24rem;
+	background: #edf2f7;
+	float:left;
+	margin-left:1.5rem;
+	padding:0  0 10px;
+	border-radius:10px;
+}
+
+.project_image{
+	width:100%;
+	height:auto;
+	border-radius:5px;
+}
+
+.project_container ul li{
+	color:black;
+	font-size:1.2rem;
+}
+
+.project_container ul{
+	padding:0 1rem;
+}
+
+.project_title{
+	font-weight: 800;
+}
 
 @media (max-width:600px){
 
