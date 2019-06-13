@@ -25,7 +25,6 @@ nav li{
 nav li a{
 	font-size:2rem;
 	margin-left:2rem;
-	text-decoration: none;
 	color:#e8eaed;
 }
 
@@ -33,6 +32,9 @@ nav li a:hover{
 	color:#2cb4dd;
 }
 
+a{
+	text-decoration: none;
+}
 
 .container{
 	margin:2rem 10rem;
