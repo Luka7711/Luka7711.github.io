@@ -1,6 +1,6 @@
-html{
-	min-width:350px;
-}
+/*html{
+	min-width:250px;
+}*/
 
 body{
 	padding: 0;
@@ -37,12 +37,103 @@ a{
 }
 
 .container{
-	margin:2rem 10rem;
+	margin:5rem 10rem;
+
+}
+
+.profile{
+	width:100%;
+	height: 30rem;
+	margin-bottom: 4rem;
+}
+.profile:after{
+	content:" ";
+	clear: both;
+}
+.avatar{
+	width:65%;
+	height:inherit;
+	float:left;
+}
+
+.profile_img{
+	width:auto;
+	height:30rem;
+	border-radius: 3px;
+}
+
+ul li{
+	list-style-type: none
+}
+
+#coder_title{
+	color:#6105c4;
+}
+
+.summary{
+	text-align: center;
+	padding-top:3rem;
+	padding-bottom: 8.4rem;
+	font-size:2.5rem;
+}
+
+.about{
+	margin-top:5rem;
+	width:100%;
+}
+
+.text_section{
+	text-align: center;
+	width:50%;
+	float: left;
+	margin-top:-2rem;
+}
+
+.text_section ul li{
+	text-align: justify;
+}
+
+.image_about{
+	width:50%;
+	float: left;
 }
 
 
 
+@media (max-width:600px){
 
+	.container{
+		margin:1rem 1rem;
+	}
+
+	nav{
+		text-align: right;
+	}
+
+	nav li a{
+		font-size:1.3rem;
+		margin-left:.5rem;
+		color:#e8eaed;
+	}
+	nav ul{
+		padding-top:1rem;
+		margin-right:1rem;
+	}
+
+	.avatar{
+		width:100%;
+	}
+
+}
+
+@media(max-width:900px){
+	.container{
+		margin:1rem 2rem;
+	}
+	.avatar{
+		width:100%;
+	}
+}
 
 
 
