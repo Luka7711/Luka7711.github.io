@@ -227,6 +227,7 @@ footer ul{
 
 
 .summary{
+	visibility: hidden;
 	padding-top:3rem;
 	padding-bottom: 8.4rem;
 	font-size:2.5rem;
