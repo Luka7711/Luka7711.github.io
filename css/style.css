@@ -1,7 +1,6 @@
 body{
 	margin:0 auto;
 	font-family: 'helvetica';
-	color:green;
 }
 
 nav{
@@ -26,9 +25,36 @@ nav ul li a:hover{
 	color:#2a965e;
 }
 
+.container{
+	margin:1rem;
+	background: #fcfcfc;
+}
+
+.avatar{
+	width:100%;
+	height:38rem;
+}
+
+.avatar_image{
+	width:100%;
+	height: auto;
+}
+
+.summary_container{
+	width:100%;
+	height:20rem;
+	padding-top:2rem;
+	font-size:2rem;
+	text-align: center;
+}
+
+.summary_container ul{
+	padding:0;
+}
+
 @media(min-width:600px){
 	body{
-		background: blue;
+		background: black;
 	}
 }
 
