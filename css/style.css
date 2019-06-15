@@ -1,11 +1,12 @@
 body{
 	margin:0 auto;
-	font-family: 'helvetica'
+	font-family: 'helvetica';
+	color:green;
 }
 
 nav{
 	background-color:#000205;
-	height:4rem;
+	height:9rem;
 	padding-top:1rem;
 }
 
@@ -18,7 +19,7 @@ nav ul li{
 nav ul li a{
 	text-decoration: none;
 	color:#dcdee2;
-	font-size:1.2rem;
+	font-size:3.5rem;
 }
 
 nav ul li a:hover{
