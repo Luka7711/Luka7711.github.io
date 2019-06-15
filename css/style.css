@@ -79,9 +79,39 @@ ul li{
 
 .about_content{
 	width:100%;
-	height:100rem;
+	height:75rem;
 }
 
+.portfolio{
+	width:100%;
+	height:200rem;
+}
+
+.project{
+	width:100%;
+	height:30rem;
+	background-position: center;
+	background-size:cover; 
+}
+
+.project_img1{
+	background-image:url("../images/movie.png");
+}
+.project_img2{
+	background-image:url("../images/book_exchange.png");
+	background-position: top;
+}
+
+.project_img3{
+	background-image:url("../images/memory_game.png") 
+}
+
+
+
+.tools{
+	padding-top:1rem;
+	font-style: italic;
+}
 @media(min-width:600px){
 	body{
 		background: black;
