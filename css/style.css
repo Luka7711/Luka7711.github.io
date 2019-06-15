@@ -1,14 +1,13 @@
-/*html{
+html{
 	min-width:250px;
-}*/
+}
 
 body{
 	padding: 0;
 	margin:-1rem auto 0;
 	font-family: 'helvetica'
 }
-
-
+@media(max-width:1900px){
 
 nav{
 	height:5rem;
@@ -83,7 +82,7 @@ ul li{
 }
 
 .about{
-	margin-top:5rem;
+	margin-top:4rem;
 	width:100%;
 }
 
@@ -91,7 +90,7 @@ ul li{
 	text-align: center;
 	width:50%;
 	float: left;
-	margin-top:-2rem;
+	margin-top:.2rem;
 }
 
 .text_section ul li{
@@ -101,6 +100,7 @@ ul li{
 .image_about{
 	width:50%;
 	float: left;
+	margin-top:3rem;
 }
 
 .section{
@@ -194,33 +194,8 @@ footer ul{
 	padding-top:12px;
 }
 
-
-
-@media (max-width:600px){
-
-	.container{
-		margin:1rem 1rem;
-	}
-
-	nav{
-		text-align: right;
-	}
-
-	nav li a{
-		font-size:1.3rem;
-		margin-left:.5rem;
-		color:#e8eaed;
-	}
-	nav ul{
-		padding-top:1rem;
-		margin-right:1rem;
-	}
-
-	.avatar{
-		width:100%;
-	}
-
 }
+
 
 @media(max-width:900px){
 	.container{
@@ -238,7 +213,7 @@ footer ul{
 		height:4rem;
 	}
 	.profile{
-		width:10rem;
+		width:100%;
 	}
 
 	.avatar{
@@ -247,7 +222,129 @@ footer ul{
 
 	.profile_img{
 		width:100%;
+		height:auto;
 	}
+
+
+.summary{
+	padding-top:3rem;
+	padding-bottom: 8.4rem;
+	font-size:2.5rem;
+	text-align: left;
+}
+
+.about{
+	margin-top:4rem;
+	width:100%;
+}
+
+.text_section{
+	text-align: center;
+	width:50%;
+	float: left;
+	margin-top:.2rem;
+}
+
+.text_section ul li{
+	text-align: justify;
+}
+
+.image_about{
+	width:50%;
+	float: left;
+	margin-top:3rem;
+}
+
+.section{
+	color:rgb(203, 65, 84);
+	font-size: 1.5rem;
+	margin-top:5rem;
+}
+
+.experience{
+	color:orange;
+}
+
+.skills{
+	color:green;
+}
+.goals{
+	color:red;
+}
+
+
+
+#resume{
+	color:#083a8c;
+	font-size: 1.5rem;
+	font-weight:800;
+	margin-top:5rem;
+}
+
+.portfolio{
+	margin-top:5rem;
+	width:100%;
+	height: 30rem;
+}
+
+
+.project_container{
+	width:30%;
+	height:24rem;
+	background: #edf2f7;
+	float:left;
+	margin-left:1.5rem;
+	padding:0  0 10px;
+	border-radius:10px;
+}
+
+.project_container:after{
+	content: "";
+	clear: both;
+}
+
+.project_image{
+	width:100%;
+	height:auto;
+	border-radius:5px;
+}
+
+.project_container ul li{
+	color:black;
+	font-size:1.2rem;
+}
+
+.project_container ul{
+	padding:0 1rem;
+}
+
+.project_title{
+	font-weight: 800;
+}
+
+footer{
+	font-size:1.5rem;
+	width:100%;
+	height:14rem;
+	background: black;
+}
+
+footer ul li, a{
+ 	color:#e8eaed;
+ 	padding-top:20px;
+}
+
+footer ul li, a:hover{
+	color:#2cb4dd;
+}
+
+footer ul{
+	margin-top:10px; 
+}
+
+.languages{
+	padding-top:12px;
+}
 }
 
 
