@@ -159,6 +159,20 @@ footer nav ul li, footer nav ul li a{
 	.portfolio{
 		height:72rem;
 	}
+
+	#me, #projects{
+		color:#ff006a;
+	}
+
+	.experience{
+		color:orange;
+	}
+	.skills{
+		color:#11a014;
+	}
+	.goals{
+		color:red;
+	}
 }
 
 
