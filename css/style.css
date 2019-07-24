@@ -622,29 +622,33 @@ footer nav ul li, footer nav ul li a{
 @media(min-width:1200px){
 	body{
 		font-size:1rem;
+		background-color: white;
 	}
+
 	nav{
-		background-color:#000205;
-		height:4rem;
-		padding-top:.2rem;
+		background:#2c3531;
+		height:3rem;
 		text-align: right;
-	}
-
-	nav ul li{
-		margin-left:30px;
-	}
-
-	nav ul li a{
-		font-size:2rem;
+		width:100%;
+		margin-bottom:5rem;
 	}
 
 	nav ul{
-		padding-right:3rem;
+		margin:.4rem 0;
+		padding-right:1rem;
+	}
+
+	nav ul li{
+		margin-left:20px;
+	}
+
+	nav ul li a{
+		font-size:1.3rem;
 	}
 
 	.container{
-		background: #fcfcfc;
-		padding:3rem 13rem;
+		background-color:white;
+		padding:0 13rem;
 	}
 
 	.avatar{
@@ -726,7 +730,22 @@ footer nav ul li, footer nav ul li a{
 		text-align: center;
 	}
 	footer nav ul li, footer nav ul li a{
-		font-size:2rem;
+		font-size:1.3rem;
+	}
+
+	.portfolio{
+		margin-right:27rem;
+	}
+
+	.project_btn{
+		background-color:blue;
+		width:110px; 
+		padding:.7rem;
+	}
+	.project_btn a{
+		text-decoration-line:none;
+		color:white; 
+		font-size: 1.2rem;
 	}
 }
 
