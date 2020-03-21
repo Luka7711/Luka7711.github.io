@@ -1,0 +1,294 @@
+body{
+	font-size:1rem;
+	width: 100%;
+	margin:0 auto;
+	font-family: "arial";
+	background:#f7f7f7;
+}
+
+a{
+	text-decoration: none;
+}
+
+.header{
+	width:100%;
+	height:100vh;
+	background: url("../images/code.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-top:0;
+	background-position: bottom;
+}
+
+.header ul{
+	margin-top:0;
+	font-size:1rem;
+	text-align: right;
+	margin-right:8rem;
+	padding-top:1.5rem;
+}
+
+.header ul li{
+	display: inline-block;
+	margin-left:2rem;
+}
+
+.header ul li a{
+	color: grey;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.header ul li a{
+	color:white;
+}
+
+.title_section{
+	width:35rem;
+	height:40rem;
+	color:lightgrey;
+	margin-top:5rem;
+	margin-left:5rem;
+	margin-bottom:3rem;
+	font-size:1.8rem;
+}
+
+.title_section .profile_image_section{
+	width:16rem;
+	height:16rem;
+	background: url("../images/profile.jpeg");
+	background-position:370% 100%;	
+	border-radius: 50%;
+	background-size: cover;
+	margin-bottom:4rem;
+}
+
+.title_section a{
+	padding:1rem 3rem;
+	border:1px solid grey;
+	color:white;
+}
+
+.title_section a:hover{
+	color:black;
+	background: white;
+	transition:all .5s;
+}
+
+.quote_section{
+	width:100%;
+	height:100vh;
+	margin:10rem auto 0;
+	display: flex;
+	flex-direction: row;
+}
+
+.quote_img{
+	width:30%;
+	height:40rem;
+	background-image: url("../images/team.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-left:10rem;
+}
+
+.quote_text{
+	width:40%;
+	height:15rem;
+	margin-left:10rem;
+	margin-top:10rem;
+	font-size:1.3rem;
+	line-height: 2rem;
+}
+
+.quote_text h1{
+	font-weight: 300;
+}
+
+.projects{
+	width:100%;
+	height:100vh;
+}
+
+.projects_text{
+	text-align: center;
+	font-size:1.3rem;
+	line-height: 2rem;
+	width:50%;
+	margin:0 auto;
+}
+.projects_text h2, .quote_text h2{
+	font-weight: 300;
+}
+
+.project_images_container{
+	display:flex;
+	display-direction: row;
+	width:100%;
+	height:70vh;
+	margin-top:5rem;
+}
+
+.project_image{
+	width:20%;
+	height:30rem;
+	border:1px solid black;
+	margin-left:2rem;
+	background-size: cover;
+	background-repeat:no-repeat;
+}
+
+.project_image:first-child{
+	margin-left:6rem;
+}
+
+.project_image2, .project_image3{
+	margin-top:2rem;
+}
+
+.project_image1{
+	background:url("../images/avatar.jpg");
+}
+
+.project_image2{
+	background:url("../images/food.jpeg");
+	background-position: 50% 50%;
+}
+
+.project_image3{
+	background:url("../images/book.jpeg");
+	background-position: 50% 50%;
+}
+
+.project_image4{
+	background:url("../images/volunteer.jpeg");
+	background-position: 50% 50%;	
+}
+
+.description{
+	text-align: center;
+	margin-top: 100%;
+	visibility: hidden;
+	transition: opacity .5s, visibility .5s;
+	opacity: 0;
+}
+
+.description, .description a{
+	color:lightgrey;
+}
+
+.description a {
+	padding:.5rem 2rem;
+	border:1px solid white;
+	margin-top:2rem;
+	background: black;
+	font-weight: 600;
+}
+
+
+.hire{
+	width:100%;
+	height:100vh;
+	margin-top:10rem;
+}
+
+.hire_container{
+	width:100%;
+	height:80vh;
+	background-color: black; 
+	color:grey;
+}
+
+.hire_text{
+	width:60%;
+	height:15rem;
+	text-align:center;
+	padding-top:10%;
+	margin:0 auto;
+	line-height: 3.5rem;
+}
+
+.hire_text a{
+	padding:1rem 3rem;
+	color:lightgrey;
+	border:1px solid white;
+}
+
+.hire_text a:hover{
+	background-color: white;
+	color:black;
+}
+
+.about{
+	width:100%;
+	height:100vh;
+	text-align: center;
+}
+
+.blog_images{
+	width:80%;
+	height:80vh;
+	margin:5rem auto 0;
+}
+
+.insta_img{
+	width:16rem;
+	height:16rem;
+	float:left;
+	margin-left:1rem;
+	margin-bottom:1rem;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.blog_images:after{
+	content:"";
+	clear:both;
+}
+
+.about h1{
+	font-weight: 300;
+}
+
+.about a{
+	padding:1rem 3rem;
+	border:1px solid grey;
+	color:white;
+	background: black;
+}
+
+.about a:hover{
+	color:black;
+	background: white;
+	transition:all .2s ease-in;
+}
+
+footer{
+	margin-top:10rem;
+	width:100%;
+	height:40vh;
+	background: #232326;
+}
+
+#foot ul {
+	text-align: center;
+}
+
+#foot ul:nth-child(2n) li{
+	margin-left:5rem;
+}
+
+#foot ul:first-child{
+	padding-top:7rem;
+}
+
+#foot ul:first-child li a{
+	font-size:1.5rem;
+}
+
+
+
+
+
+
