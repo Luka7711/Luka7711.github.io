@@ -131,7 +131,7 @@ a{
 
 .project_image{
 	width:20%;
-	height:30rem;
+	height:27rem;
 	border:1px solid black;
 	margin-left:2rem;
 	background-size: cover;
@@ -147,17 +147,21 @@ a{
 }
 
 .project_image1{
-	background:url("../images/avatar.jpg");
+	background:url("../images/movie.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
 }
 
 .project_image2{
-	background:url("../images/food.jpeg");
-	background-position: 50% 50%;
+	background:url("../images/chat.png");
+	background-size:100% 100%;
+	background-repeat: no-repeat;
 }
 
 .project_image3{
-	background:url("../images/book.jpeg");
-	background-position: 50% 50%;
+	background:url("../images/book.png");
+	background-size:100% 100%;
+	background-repeat: no-repeat;
 }
 
 .project_image4{
@@ -288,7 +292,11 @@ footer{
 }
 
 
-
+#quote{
+	font-style:italic;
+	font-weight:400;
+	font-size:16px;
+}
 
 
 
