@@ -1,4 +1,4 @@
-let a = $(".project_image1");
+let a = $(".project_image");
 a.on("mouseover", function() {
 	$(".description1").css({"visibility":"visible", "opacity":"1", 
 		background: "linear-gradient(to-right, rgba(0, 0, 255, 0.3), rgba(10, 60, 180, 0.3))"})
@@ -37,7 +37,10 @@ for(let i=0; i<insta.length; i++){
 }
 
 
-
+// when div element is hovered add div after and 
+// set 
+// backgorund linear gradient
+// add span element with zoom icon
 
 
 
