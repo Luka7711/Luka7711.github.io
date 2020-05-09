@@ -103,7 +103,30 @@ h5{
 	margin-left:50px;
 }
 
+.tech_content{
+	display: inline;
+}
 
+.tech{
+	margin:20px 0;
+}
+
+.title_section{
+	width:20rem;
+	height:15rem;
+	color:lightgrey;
+	margin-top:30rem;
+	margin-left:5rem;
+	margin-bottom:3rem;
+	font-size:1.8rem;
+	letter-spacing: 10px;
+}
+
+.title_section h1{
+	letter-spacing: 1.4rem;
+    border-left: 10px solid orange;
+    padding-left: 1rem;
+}
 
 
 
