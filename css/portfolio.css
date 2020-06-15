@@ -200,11 +200,22 @@ h5{
 @media(max-width:425px){
 
 	.header{
-		height: 50vh;
+		height: 75vh;
 	}
 
 	.image_work{
-		display: block;
+		display: none;
+	}
+
+	.image_container h1 {
+		font-size: 1.5rem;
+	}
+	.image_container h2{
+		font-size: 1.2rem;
+	}
+	.image_container p{
+		font-size: 1rem;
+		line-height: 1.3rem;
 	}
 }
 
