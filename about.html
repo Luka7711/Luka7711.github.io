@@ -2,6 +2,8 @@
 <html>
 <head>
 	<title>About</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="./css/about.css">
 	<script src="https://kit.fontawesome.com/77c32b8a17.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -21,32 +23,35 @@
 			</div>
 	</div><!--header-->
 
-	<div class="quote_section">
-			<div class="quote_img"></div>
-			<div class="quote_text">
+	<div class="wrapper">
+		<div class="row quote_section">
+			<div class="col-lg-4 quote_img">
+				<img class="avatar" src="./images/iam2.png">
+			</div>
+			<div class="col-lg-7 quote_text">
 				<h1>From New York to Chicago</h1>
 				<p>- My name is Ulukbek, my friends call me Luka. I am a software developer. I moved from New York to Chicago in 2018, since then I live and work here. Before I came into this industry I had tried myself in a variety of fields. I was not passioned what I was doing, and I had decided to do something else.</p>	
 
 				<p>The journey to software development started from learning HTML and CSS. I have built a Sports web application, just using these languages. I was so excited and passionate about building.</p>
 
-				<h1>Fun facts</h1>
-				<p> When I was a kid, I dreamt to become a soccer player and live in Europe spending millions. My craziest fantasy was to travel to Moon and meet aliens. I moved to the USA from the Kyrgyz Republic when I was 18. I drove an 18 wheeler truck and traveled all over the USA, seeing the beauty of its lands from Maine to California, from Oregon to Florida. I met many interesting people across the country and I was wondered by their life stories.</p>
 			</div>
 	</div> <!--quote--section-->
 
-		<div class="about">
-			<h1>Traveling album</h1>
-			<div class="blog_images">
-				<div class="insta_img insta_img1"></div>
-				<div class="insta_img insta_img2"></div>
-				<div class="insta_img insta_img3"></div>
-				<div class="insta_img insta_img4"></div>
-				<div class="insta_img insta_img6"></div>
-				<div class="insta_img insta_img8"></div>
-				<div class="insta_img insta_img9"></div>
-				<div class="insta_img insta_img12"></div>
+		<div class="about row">
+			<div class="col-lg-6 col-md-6 col-sm-12">
+				<h1 class="title">Fun facts</h1>
+				<p> When I was a kid, I dreamt to become a soccer player and 	live in Europe spending millions. My craziest fantasy was to travel to Moon and meet aliens. I moved to the USA from the Kyrgyz Republic when I was 18. I drove an 18 wheeler truck and traveled all over the USA, seeing the beauty of its lands from Maine to California, from Oregon to Florida. I met many interesting people across the country and I was wondered by their life stories.
+				</p>
+			</div>
+			<div class="blog_images row col-lg-6 col-md-6 col-sm-12">
+				<div class="col-lg-2 col-md-2 col-sm-6 insta_img insta_img1"></div>
+				<div class="col-lg-2 col-md-2 col-sm-6 insta_img insta_img2"></div>
+				<div class="col-lg-2 col-md-2 col-sm-6 insta_img insta_img3"></div>
+				<div class="col-lg-2 col-md-2 col-sm-6 insta_img insta_img4"></div>
+				<div class="col-lg-2 col-md-2 col-sm-6 insta_img insta_img5"></div>
 			</div>
 		</div>
+	</div>
 	<script type="text/javascript" src="./js/app.js"></script>	
 </body>
 </html>
