@@ -217,6 +217,21 @@ h5{
 		font-size: 1rem;
 		line-height: 1.3rem;
 	}
+	article p{
+		line-height: 1.4rem;
+		font-size: .9rem;
+	}
+
+	.row{
+		margin:5px;
+	}
+	.tech h5{
+		margin-top:20px;
+		font-size: 1rem;
+	}
+	.tech ul li{
+		font-size: .8rem;
+	}
 }
 
 
