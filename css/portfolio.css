@@ -16,6 +16,7 @@ a{
 
 .header{
 	height:90vh;
+	min-height: 40vh;
 	background:lightblue;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -231,6 +232,14 @@ h5{
 	}
 	.tech ul li{
 		font-size: .8rem;
+	}
+
+	.header ul {
+		margin-right: 10px;
+	} 
+
+	.header ul li{
+		display: block;
 	}
 }
 
