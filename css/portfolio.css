@@ -10,6 +10,11 @@ a{
 	text-decoration: none;
 }
 
+.project_name{
+	padding-bottom: 30px;
+	border-bottom: 1px solid grey;
+}
+
 #name{
 	letter-spacing: 10px;
 }
@@ -73,7 +78,7 @@ a{
 }
 
 .row{
-	margin: 10px 150px;
+	margin: 35px 150px;
 }
 
 .wrapper{
