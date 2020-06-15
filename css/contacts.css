@@ -94,3 +94,42 @@ a{
 .fa-twitter{
 	color: #5da6ff;
 }
+
+@media(max-width:768px){
+	.title_section{
+		width:25rem;
+		height: 35rem;
+	}
+	.title_section p, a{
+		font-size: 1.4rem;
+	}
+}
+
+@media(max-width: 425px){
+	.title_section{
+		width:60%;
+		height: 23rem;
+		margin:0 auto;
+	}
+	.title_section p{
+		font-size: 1rem;
+		padding: .8rem;
+	}
+
+	.title_section h2{
+		font-size:1.4rem;
+	}
+
+	.header ul {
+		margin-right: 10px;
+	} 
+
+	.header ul li{
+		display: block;
+	}
+
+	.header ul li a{
+		font-size: 1rem;
+	}
+
+}
