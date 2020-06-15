@@ -146,9 +146,65 @@ h5{
 }
 
 
-@media screen and(max-width:1024px){
+@media (max-width:1024px){
+	.image_work{
+		display: block;
+	}
+}
+
+@media(max-width: 768px){
+
 	.header{
-		height: 41vh;
+		height: 60vh;
+	}
+
+	.profile_content{
+		margin-top:0 !important;
+	}
+
+	.profile_image_section{
+		width:7rem;
+		height: 7rem;
+	}
+
+	.image_container h1{
+		font-size:2rem;
+	}
+
+	.image_container h2{
+		font-size:1.5rem;
+	}
+
+	.image_work{
+		display: none;
+	}
+
+	.row{
+		margin:30px;
+	}
+
+	.sub1{
+		width: 100%
+	}
+
+	.sub2{
+		width:100%;
+	}
+
+	.sub_img_right{
+		margin-left: 0;
+		margin-top:3rem;
+	}
+}
+
+@media(max-width:425px){
+
+	.header{
+		height: 50vh;
+	}
+
+	.image_work{
+		display: block;
 	}
 }
 
