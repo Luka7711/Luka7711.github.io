@@ -104,4 +104,38 @@ p{
 	margin-top:7rem;
 }
 
+@media(max-width:1024px){
+	.insta_img3{
+		display: none;
+	}
+	.blog_images{
+		margin-top:5rem;
+	}
+}
+
+@media(max-width: 768px){
+	.wrapper{
+		margin:3rem 1rem;
+	}
+	.insta_img1, .insta_img2, .insta_img3, .insta_img5{
+		display: none;
+	}
+
+	.about{
+		margin-top:2rem;
+	}
+}
+
+@media(max-width: 425px){
+	.insta_img, .quote_img{
+		display: none;
+	}
+	.header ul {
+		margin-right: 10px;
+	} 
+
+	.header ul li{
+		display: block;
+	}
+}
 
