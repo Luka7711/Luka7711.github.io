@@ -86,12 +86,17 @@ a{
 	height: auto;
 }
 
+.title{
+	padding-top:1rem;
+}
+
 article{
 	margin-top: 50px;
 }
 
 p{
-	line-height: 40px
+	line-height: 40px;
+	color:#595757;
 }
 
 h5{
