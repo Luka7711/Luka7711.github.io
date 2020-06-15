@@ -107,7 +107,7 @@ a{
 
 @media(max-width: 425px){
 	.title_section{
-		width:60%;
+		width:70%;
 		height: 23rem;
 		margin:0 auto;
 	}
@@ -132,4 +132,10 @@ a{
 		font-size: 1rem;
 	}
 
+}
+
+@media(max-width: 375px){
+	.title_section{
+		width:80%;
+	}
 }
