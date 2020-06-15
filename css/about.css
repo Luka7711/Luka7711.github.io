@@ -130,6 +130,11 @@ p{
 	.insta_img, .quote_img{
 		display: none;
 	}
+	.title_section{
+		margin-top:7rem;
+		width:0;
+		height: 0;
+	}
 	.header ul {
 		margin-right: 10px;
 	} 
