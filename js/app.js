@@ -20,6 +20,7 @@ const navSlide = () => {
 		burger.classList.toggle("toggle");
 	})
 }
+console.log("hello")
 
 navSlide();
 
